@@ -75,6 +75,7 @@ class ReviewView: UIView {
         let view = UITextView()
         view.font = .systemFont(ofSize: 18)
         view.text = textViewPlaceHolder
+        view.addKeyboardNotifications()
         view.textColor = .lightGray
         view.layer.borderWidth = 1
         view.layer.borderColor = UIColor(red: 0.51, green: 0.51, blue: 0.51, alpha: 1.00).cgColor
