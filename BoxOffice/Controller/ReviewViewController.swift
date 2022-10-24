@@ -39,6 +39,7 @@ class ReviewViewController: UIViewController {
     }
     
     func setup() {
+        hideKeyboard()
         mainView.nicknameTextField.delegate = self
         mainView.passwordTextField.delegate = self
         mainView.reviewTextView.delegate = self
